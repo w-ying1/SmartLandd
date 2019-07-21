@@ -65,8 +65,8 @@ class Menu1List extends React.Component {
                 icon: 'boss',
                 name: '机构管理',
                 menu2: [
-                    {name: '待测7', id: 7, path: '/test7'},
-                    {name: '待测8', id: 8, path: '/test8'},
+                    {name: '机构页面', id: 7, path: '/institution-management'},
+
                 ]
             },
             {
@@ -75,8 +75,8 @@ class Menu1List extends React.Component {
                 title: "user",
                 name: '用户管理',
                 menu2: [
-                    {name: '待测9', id: 9, path: '/test9'},
-                    {name: '待测10', id: 10, path: '/test10'},
+                    {name: '用户页面', id: 9, path: '/user-management'},
+
                 ]
             },
             {
@@ -85,8 +85,8 @@ class Menu1List extends React.Component {
                 title: "role",
                 name: '角色管理',
                 menu2: [
-                    {name: '待测11', id: 11, path: '/test11'},
-                    {name: '待测12', id: 12, path: '/test12'},
+                    {name: '角色页面', id: 11, path: '/role-management'},
+
                 ]
             },
             {
@@ -95,28 +95,17 @@ class Menu1List extends React.Component {
                 title: "auth",
                 name: '权限管理',
                 menu2: [
-                    {name: '待测13', id: 13, path: '/test13'},
-                    {name: '待测14', id: 14, path: '/test14'},
+                    {name: '权限页面', id: 13, path: '/authority'},
                 ]
             },
             {
                 id: 5,
                 icon: 'job',
-                title: "data",
-                name: '数据服务管理',
-                menu2: [
-                    {name: '待测15', id: 15, path: '/test15'},
-                    {name: '待测16', id: 16, path: '/test16'},
-                ]
-            },
-            {
-                id: 6,
-                icon: 'job',
                 title: "info",
                 name: '日志管理',
                 menu2: [
-                    {name: '待测17', id: 17, path: '/test17'},
-                    {name: '待测18', id: 18, path: '/test18'},
+                    {name: '登陆日志', id: 17, path: '/diary1'},
+                    {name: '操作日志', id: 18, path: '/diary2'},
                 ]
             }
         ];

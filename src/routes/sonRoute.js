@@ -8,14 +8,14 @@ import RawTestReport from '../rawTestReport/rawTestReport';
 class DataRoute extends Component {
   render() {
     return (
-      // <Router history={history}>
+       <Router history={history}>
         <Switch>
           <Route path="/processInspection" component={ProcessInspection}/>
           <Route path="/role" component={Role}/>
           <Route key='/rawTestReport' path='rawTestReport' component={RawTestReport}></Route>
           {/* 这是home页面,其下有很多子路由 */}
         </Switch>
-      // </Router>
+       </Router>
     );
   }
 }

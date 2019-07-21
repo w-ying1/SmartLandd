@@ -1,29 +1,33 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
-import Test7 from '../test7/test7'
-import Test8 from '../test8/test8'
-import Test9 from '../test9/test9'
-import Test10 from '../test10/test10'
-import Test11 from '../test11/test11'
+import InstitutionManagement from '../institution-management/institution-management'
+import UserManagement from '../user-management/user-management'
+import RoleManagement from '../role-management/role-management'
+import AuthorityManagement from'../authority-management/authority-management'
+import LoginDiary from'../diary-management/logindiary'
+import DiaryManagement from'../diary-management/diary-management'
 import HomePage from '../homePage/homePage'
 
 class Right extends React.Component {
     render() {
         const data = [{
-            path: '/test7',
-            component: Test7
+            path: '/institution-management',
+            component: InstitutionManagement
         },{
-            path: '/test8',
-            component: Test8
+            path: '/user-management',
+            component: UserManagement
         },{
-            path: '/test9',
-            component: Test9
+            path: '/role-management',
+            component: RoleManagement
         },{
-            path: '/test10',
-            component: Test10
+            path: '/authority',
+            component: AuthorityManagement
         },{
-            path: '/test11',
-            component: Test11
+            path: '/diary1',
+            component: LoginDiary
+        },{
+            path: '/diary2',
+            component:DiaryManagement
         },{
             path: '/homePage',
             component: HomePage

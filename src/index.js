@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import './font-awesome/css/font-awesome.css';
 import {Route, Switch, BrowserRouter} from 'react-router-dom';
-import Auth from '../src/components/auth/Auth';
 import Login from '../src/components/Login/login';
 import Home from '../src/components/Home/home';
 

@@ -61,7 +61,7 @@ class NormalLoginForm extends React.Component {
         </FormItem>
         <FormItem>
           <Row>
-            <Col span={8}>
+            <Col span={12}>
               {getFieldDecorator('remember', {
               valuePropName: 'checked',
               initialValue: true,
@@ -69,7 +69,7 @@ class NormalLoginForm extends React.Component {
               <Checkbox>记住密码</Checkbox>
             )}
             </Col>
-            <Col span={7} offset={9}>
+            <Col span={12} offset={0}>
             <abbr className="login-form-forgot" title="请联系管理员重置密码">忘记密码？</abbr>
             </Col>
           </Row>
